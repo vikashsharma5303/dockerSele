@@ -27,10 +27,10 @@ public class loginTest {
             dc.setBrowserName("chrome");
             dc.setPlatform(Platform.LINUX);
         } 
-//        else if (br.equalsIgnoreCase("firefox")) {
-//            dc.setBrowserName("firefox");
-//            dc.setPlatform(Platform.LINUX);
-//        }
+        else if (br.equalsIgnoreCase("firefox")) {
+            dc.setBrowserName("firefox");
+            dc.setPlatform(Platform.LINUX);
+        }
 
         // Corrected "locathost" to "localhost"
         URL url = new URI("http://localhost:4444/wd/hub").toURL();
